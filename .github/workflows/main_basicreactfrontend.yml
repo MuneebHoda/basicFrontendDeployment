@@ -61,6 +61,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: "basicReactFrontend"
-          slot-name: "Development"
+          slot-name: "Production"
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_175B4A6F18C649A2AAA2AD8209823BE4 }}
